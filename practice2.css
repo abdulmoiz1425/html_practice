@@ -1,0 +1,72 @@
+.content
+{
+    background-image: url("building.jpeg");
+ background-repeat: repeat-x;
+ background-size: cover;
+ height: 300px;
+ 
+}
+.page2
+{
+   margin: 27px;
+ 
+}
+
+.gallery
+{
+    
+    box-shadow: 0px 4px 8px 0px;
+    transition: 0.5s;
+    background-color: rgb(253, 253, 253);
+    margin: 15px;
+    
+
+}
+a
+{
+    color: black;
+    background-color: blanchedalmond;
+    padding-right: 32px;
+      
+    
+}
+.viewmore
+{
+    background-image: url("ice cream.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ height: 50vh;
+}
+body
+{
+    text-align: center;
+ 
+}
+h3
+{
+    text-align: center;
+}
+.gallery2
+{
+    box-shadow: 0px 4px 8px 0px;
+    transition: 0.5s;
+    margin: 15px;
+}
+.gallery3
+{
+
+    box-shadow: 0px 4px 8px 0px;
+    transition: 0.5s;
+    margin: 15px;
+}
+button
+{
+    background-color: lightcoral;
+    width: 190px;
+}
+.contant
+{
+ padding-top: 40px;  
+ font-style: bold;
+ color:chartreuse; 
+}

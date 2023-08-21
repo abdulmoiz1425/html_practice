@@ -1,0 +1,144 @@
+@media(max-width:500px){
+    img{display:block ;
+
+    }
+}
+body
+{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.moiz{
+    color: red;
+}
+@media only screen and (max-width:992px){
+    .moiz{
+        color: royalblue;
+    }
+}
+.link
+{
+
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+    left: 147px;
+}
+.icon
+{
+    border-radius: 100px;
+    width: 50px;
+    background-color: rgb(238, 125, 238);
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    left: 96px;
+}
+.grid
+{
+  
+  
+    display: grid;
+    grid-template-rows:   430px;
+    grid-template-columns: 885px;
+height: 390px;
+background-color:seashell;
+margin-top: 70px;
+}
+.input
+{
+
+    margin: 10px;
+    position: relative;
+    bottom: 3px;
+    width: 260px;
+    height: 35px;
+  border: none;
+  border-bottom: 2px solid black;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+
+img {
+    
+    position: relative;
+    left: 900px;
+    bottom: 468px;
+    height: 390px;
+    width: 450px;
+    
+
+}
+
+
+    .btn {
+        position: relative;
+        right: 660px;
+        top: 16px;
+        width: 106px;
+        border-radius: 10px;
+        height:40px;
+        background-color: royalblue;
+
+}
+.label
+{
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+   
+    
+} 
+.icon:hover
+{
+ background-color: purple;   
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+}
+.name
+{
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+ .email
+{
+    position: relative;
+    left: 335px;
+    bottom: 90px;
+} 
+.mail
+{
+    position: relative;
+    bottom: 76px;
+    left: 347px;
+    /* right: 320px;
+    bottom: 12px; */
+    
+}
+.output
+{
+    position: relative;
+    bottom: 61px;
+    width: 390px;
+}
+.contant
+{
+    width: 200px;
+    position: relative;
+    left: 130px;
+}

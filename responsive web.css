@@ -1,0 +1,1028 @@
+
+.latest-news
+{
+    text-align: center;
+}
+
+.find-D1{
+    width: 115px;
+}    
+
+.hbtn
+
+{
+
+    display:flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    padding-right: 175px;
+}
+/* button class */
+.find-D
+{
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    margin-right: 70px;
+}
+.find-D1
+{
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    margin-right: 10px;
+}
+.navbar1
+{
+    /* padding-bottom: 15px; */ 
+    padding-top: 15px;
+    background-color: seashell;
+    box-shadow: 0px,2px,15px 2px;
+}
+
+.find-D:hover
+{
+    background-color:rgb(8, 8, 63);
+    color: white;
+    border: 1px solid rgb(8, 8, 66);
+}
+.find-D1:hover
+{
+
+    background-color:rgb(8, 8, 53);
+    color: white;
+    border: 1px solid rgb(6, 6, 63);
+}
+/* navbar content  */
+.content
+{
+
+     display: flex;
+     justify-content: center;
+    margin-top: 10px;
+    padding-left: 15%;
+
+} 
+.content p
+{
+    color:black;
+}
+
+
+
+
+   
+.content i
+{
+    color: blue;
+    font-size: 25px;
+}
+.content h4
+{
+    color: blue;
+}
+.vertical h4
+{
+    color: blue;
+}
+.vertical
+{
+    border-left: 1px solid black;
+padding-left: 30px;
+height: 100px;
+}
+
+/* logo  webname  */
+.page
+{
+    display: inherit;
+}
+.page h1{
+    color: blue;
+ position: relative;
+ left: 25px;
+  top: 15px;  
+ font-size: 40px;  
+}
+.page i
+{
+ 
+    position: relative;
+    top: 22px;
+    left: 23px;
+    font-size: 40px;
+}
+.icon
+{
+    font-size: 20px;
+}
+.nav
+{
+    background-color: blue;
+    
+}
+.nav a
+{
+    color: white;
+}
+.img
+{
+    background-image: url(/doc5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+/* text in pic */
+.text-in-pic{
+    
+    text-align: right;
+
+    padding-right:110px ;
+ 
+    padding-top: 100px;
+}
+
+.text-in-pic h2
+{
+    color: blue;
+}
+.text-in-pic button
+{
+background-color: blue;
+}
+.text-in-pic button:hover
+{
+    background-color: rgb(19, 19, 68);
+    color: white;
+}
+.nav i
+{
+    display: flex;
+}
+.symbol
+{
+    
+    background-color: blue;
+}
+
+.social
+{
+    display: flex;
+    justify-content: end;
+}
+
+.symbol img {
+            border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.section2
+{
+    padding-top: 30px;
+    text-align:center ;
+}
+
+ .gbtn
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  
+ }
+
+
+ .gbtnb
+ {
+     width: 80%
+     }
+     .gbtnb:hover
+     {
+         background-color: blue;
+     }
+
+
+ 
+
+
+.list-group-item button 
+{
+    background-color: rgb(9, 9, 63);
+    color: white;
+    margin: 5px;
+    width: 230px;
+}
+
+button i
+{
+   text-align: end;
+}
+button
+{
+    text-align: start;
+}
+
+.section4
+{
+    background-image: url(./med.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.Bbtn
+{
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.Bbtn:hover
+{
+    background-color: rgb(6, 6, 41);
+}
+.para6
+{
+    color: white;
+    width: 75%;
+    text-align:center ;
+    position: relative;
+    left: 135px;
+    padding-top: 70px;
+
+}
+.Mtools
+{
+    /* padding-left: 30px; */
+    width: 205px;
+    height: 115px;
+}
+
+
+.para7
+{
+    display: contents;
+    
+}
+
+
+.section6
+{
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+}
+.care
+{
+    
+    width: 380px;
+    height: 200px; 
+
+}
+.input
+{
+    
+    background-color: bisque;
+    width: 70%;
+}
+.input h2
+{
+    color: rgb(11, 11, 97);
+}
+.input button
+{
+    background-color: chartreuse;
+}
+.input button:hover
+{
+    background-color: rgb(34, 56, 12);
+    color: white;
+}
+.edit2 
+{
+     display: flex;
+justify-content: center;
+
+
+}
+.edit2 i
+{
+    padding-right: 20px;
+    font-size: 25px;
+    padding-top: 8px;
+}
+.adjust
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.ICON
+{
+    color: blue;
+    display: contents;
+font-size: 40px;
+}
+.pic7
+
+{
+    font-size: 40px;
+}
+.edit2
+{
+    margin-top: 10px;
+}
+.red
+{
+    color: red;
+}
+.form-control
+{
+    width: 95%;
+    margin-left: 9px;
+    margin-bottom: 5px;   
+}
+.para5
+{
+    text-align: center;
+    padding-top: 14px;
+    font: revert
+}
+.para8
+{
+
+    padding-left: 40px;
+}
+
+
+/* <-------media qurries----------------->  */
+
+@media  (min-width:280px) and ( max-width:320px){
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .para8
+{
+
+    padding-left: 40px;
+}
+.para10
+{
+    width: 95%;
+}
+    .form-control
+{
+    width: 95%;
+    margin-left: 9px;
+    margin-bottom: 5px;   
+}
+
+.latest-news
+{
+    text-align: center;
+}
+    .care
+    {
+        display: contents;
+        
+        width: 285px;
+        height: 220px; 
+    }
+    .img
+{
+    background-image: url(/doc5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+    .para5
+    {
+        
+        text-align: center;
+        
+    }
+    .input button
+    {
+        margin-bottom: 20px;
+    }
+    
+    .social
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+    .gbtn
+    {
+        padding-left: 45px;
+    }
+   
+    .text-in-pic
+    {
+        color: white;
+        padding-right: 110px;
+    }
+    .content
+    {
+      
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .vertical
+    {
+        padding-left: 20px;
+    }
+
+
+    .card-body
+     {
+        text-align: center;
+        /* padding-right: 31px; */
+    }
+    .gbtnb
+    {
+        width: 50% 
+    }
+    /* .unordered
+    {
+        width: 92%;
+    } */
+        
+
+  
+    .find-D{
+    margin-right: 20px;
+    width: 180px;}
+    
+
+    .hbtn{
+
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        padding-right: 36px;
+        }
+    .Mtools
+{
+    padding-left: 30px;
+    width: 275px;
+    height: 115px;
+   
+}
+.care
+{
+    
+   
+    width: 260px;
+    height: 220px;
+    position: relative;
+    right: 10px;
+
+}
+.para6 {
+    color: white;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    left: 48px;
+    padding-top: 70px;
+}
+.modify
+{    
+    left: 40px;
+    position: relative;
+}
+.content p
+{
+    color: white;
+}
+footer
+{
+    text-align: center;
+}
+
+
+
+}
+/* <-------media qurries one----------------->  */
+  @media  ( min-width:321px) and (max-width:375px) {
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .form-control
+{
+    width: 95%;
+    margin-left: 9px;
+    margin-bottom: 5px;   
+}
+
+.latest-news
+{
+    text-align: center;
+}
+    .care
+    {
+        display: contents;
+        
+        width: 285px;
+        height: 220px; 
+    }
+    .img
+{
+    background-image: url(/doc5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+    .para5
+    {
+        
+        text-align: center;
+        
+    }
+    .input button
+    {
+        margin-bottom: 20px;
+    }
+    
+    .social
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+    .gbtn
+    {
+        padding-left: 45px;
+    }
+   
+    .text-in-pic
+    {
+        color: white;
+        padding-right: 110px;
+    }
+    .content
+    {
+      
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .vertical
+    {
+        padding-left: 20px;
+    }
+
+
+    .card-body
+     {
+        text-align: center;
+        /* padding-right: 31px; */
+    }
+    .gbtnb
+    {
+        width: 50% 
+    }
+    /* .unordered
+    {
+        width: 92%;
+    } */
+        
+
+  
+    .find-D{
+    margin-right: 20px;
+    width: 180px;}
+    
+
+    .hbtn{
+
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        justify-content: end;
+        }
+    .Mtools
+{
+    padding-left: 30px;
+    width: 335px;
+    height: 115px;
+   
+}
+.care
+{
+    
+   
+    width: 260px;
+    height: 220px;
+    position: relative;
+    right: 10px;
+
+}
+.para6 {
+    color: white;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    left: 48px;
+    padding-top: 70px;
+}
+.modify
+{    
+    left: 40px;
+    position: relative;
+}
+.content p
+{
+    color: white;
+}
+footer
+{
+    text-align: center;
+}
+
+
+}
+/* <-------media qurries two----------------->  */
+
+@media (min-width:376px)and (max-width:436px) {
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .page
+{
+    display: inherit;
+    padding-bottom: 10px;
+}
+
+.latest-news
+{
+    text-align: center;
+}
+  
+    .care
+    {
+        display: contents;
+        width: 211px;
+        height: 265px;
+    }   
+    .gbtn
+    {
+      padding-left: 75px;
+      
+     }
+    
+    .hbtn
+
+    {
+    
+        display:flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        /* padding-right: 40px; */
+        justify-content: end;
+    }   
+    .para6 
+{
+    color: white;
+    width: 75%;
+    text-align:center ;
+    position: relative;
+    left: 75px;
+    padding-top: 70px;
+
+}
+.modify
+{    
+    position: relative;
+    left: 90px;
+}
+.para5
+{
+    padding-left: 6px;
+    padding-top: 14px;
+    font: revert
+}
+.nav
+{
+    
+ justify-content: center;
+    
+}
+.symbol
+{
+    padding-left: 10%;
+}
+footer
+{
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 15%;
+    padding-bottom: 25px;
+} 
+.Mtools {
+    padding-left: 32px;
+    width: 340px;
+    height: 115px;
+} 
+.para8 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    width: 95%;
+}
+} 
+/* <-------media qurries three----------------->  */
+@media (min-width:540px)and(max-width:767px){
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .hbtn {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        /* padding-right: 36px; */
+        justify-content: end;
+    }
+}
+/* <-------media qurries four----------------->  */
+
+   @media (min-width:768px) and (max-width:1023px){
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .separate
+    {
+        padding-bottom: 15px;
+    }
+    .nav
+{
+    
+ justify-content: center;
+    
+}
+.latest-news
+{
+    text-align: center;
+}
+.Mtools {
+    width: 50%;
+    height: 115px;
+    padding-left: 26px;
+}
+
+.img {
+    background-image: url(/doc5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    background-position: center;
+}
+    .hbtn
+
+    {
+    
+        display:flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        padding-right: 0px;
+    }
+    .content
+    {
+      
+        padding-right: 50px;
+        padding-left: 44px;
+        padding-top: 20px;
+    }
+    .para5
+{
+    padding-left: 15px;
+    padding-top: 14px;
+    font: revert
+}
+.modify
+{
+    padding-left: 35%;    
+}
+    .input button
+    {
+        position: relative;
+        bottom: 12px;
+    }
+    .list-group-item button 
+{
+    background-color: rgb(9, 9, 63);
+    color: white;
+    margin: 5px;
+    width: 140px;
+}
+.text-in-pic
+{
+    color:black;
+    padding-left: 10px;
+}
+.content p
+{
+    color:white;
+}
+.care
+{
+    width: 221px;
+    display: block;
+    height: 283px
+}
+.section5
+{
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+}
+
+} 
+/* <-------media qurries five----------------->  */
+
+
+ @media   (max-width:1024px)  and(max-width:1500px) {
+
+    html,body
+    {
+        width: auto;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+.latest-news
+{
+    text-align: center;
+}
+
+    .para8
+    {
+        padding-left: 40px;
+    }
+    .gbtn
+    {
+        padding-left: 75px;
+    }
+    .input button
+    {
+        position: relative;
+        bottom: 10px;
+    }
+    .care
+{
+    
+    width: 285px;
+    height: 220px; 
+}
+    .input
+{
+    
+    background-color: bisque;
+    width: 70%;
+    position: relative;
+    right: px;
+} 
+    .hbtn
+
+    {
+    
+        display:flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        padding-right: 50%
+    }  
+    .img {
+        background-image: url(/doc5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150vh;
+        background-position: center;
+    }
+    .list-group-item button {
+        background-color: rgb(9, 9, 63);
+        color: white;
+        margin: 5px;
+        width: 206px;
+    }
+    footer
+{
+    text-align: center;
+}
+
+}
+/* <-------------------sixth media----------------> */
+/* @media screen and(min-width:437px) and (max-width:560px) {
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+.latest-news
+{
+    text-align: center;
+}
+    .img
+{
+    background-image: url(/doc5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+footer
+{
+    text-align: center;
+}
+.care {
+    width: 195px;
+    height: 220px;
+    position: relative;
+    right: 11px;
+    display: contents;
+}
+.modify {
+    position: relative;
+    left: -66px;
+}
+
+.gbtn
+ {
+    position: relative;
+    right: 36px;
+    }
+    .hbtn {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        padding-right: 0px;
+    }
+    .social {
+     
+        position: relative;
+        right: 30px;
+        
+    }
+} */
+/* <-------------------third media----------------> */
+/* @media screen and(min-width:320px){
+    .Mtools
+    {
+        padding-left: 30px;
+        width: 270px;
+        height: 315px;
+       
+    }  
+}  */

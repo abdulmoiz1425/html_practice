@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(75, 36, 20);
+display: flex;
+justify-content: center;    
+}
+.container
+{
+    background-color: burlywood;
+    color: rgb(119, 69, 20);
+    place-content: center;
+    display: grid;
+    grid-template-columns: 480px ;
+    grid-template-rows:  42px 82px 90px 122px 120px ; 
+    height: 850px;
+    width: 490px;
+    border: 1px solid black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.item
+{
+    
+    position: relative;
+    bottom: 170px;
+}
+input
+{
+    
+    border-radius: 3px;
+    width: 230px;
+    height: 25px;
+}
+.street
+{
+    margin: 10px;
+    width: 344px;
+    position: relative;
+    right: 8px;
+}
+.radio
+{
+    position: relative;
+    right: 105px;
+}
+.right
+{
+    position: relative;
+    right: 206px;
+    bottom: 7px;
+
+}
+button
+{
+    
+    
+    border-radius: 30px;
+    width: 60px;
+    height: 25px;
+    justify-content: center;
+    position: relative;
+    left: 140px;
+
+background-color:  rgb(190, 99, 7);
+}
+.street-2
+{
+    margin-bottom: 10px;
+}
+.address
+{
+    margin-top: 10px;
+}
+.phone
+{
+    margin-top: 10px;
+}

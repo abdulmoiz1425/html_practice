@@ -1,0 +1,360 @@
+
+.move
+{
+    position: relative;
+left: 10px;
+
+}
+i
+{
+    margin: 5px;
+}
+.move1
+{
+    /* position: relative;
+    left: 150px;
+    top: 7px; */
+    float: left;
+}
+.move2
+{
+    position: relative;
+    right: 30px;
+}
+#navbar
+{
+   
+    justify-content: center;
+    
+}
+
+.edit
+{
+    height: 500px;
+}
+.para
+{
+    position: relative; 
+    color: white; 
+    bottom: 400px;
+    left: 600px;
+    font-size: 12px;
+}
+.para1
+{
+    position: relative; 
+    color: white; 
+    bottom: 410px;
+    left: 530px; 
+    width: 450px;
+    font-size: 50px;
+}
+.btn
+{
+    background-color: rgb(236, 58, 27);
+    position: relative;
+    bottom: 400px;
+    left: 580px;
+    border: 1px solid white;
+    margin: 10px;
+    color: white;
+}
+.btn:hover
+{
+    background-color: rgb(153, 31, 10)!important;
+    color: white!important;
+}
+.pic
+{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px; 
+    margin: 10px;
+    position: relative;
+    bottom: 200px;
+}
+.heading
+{
+    position: relative;
+    bottom: 315px;
+}
+.para2
+{
+    position: relative;
+    bottom: 311px;
+    left: 165px;
+    width: 335px;
+ 
+
+}
+.pic2
+{
+    position: relative;
+    bottom: 210px;
+    height: 400px;
+    width: 400px;
+    border-radius: 280px;
+}
+
+.mobile
+{
+
+ background-image:linear-gradient(rgba(15, 19, 58, 0.8),rgba(0, 0, 0, 0.8)), url(./crowd.webp);
+ justify-content: center;
+height: 50vh;
+object-fit: cover;
+position: relative;
+bottom: 250px;
+background-size: cover;
+overflow: hidden;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+
+
+}
+.mobile h3
+{
+    color:  white;
+   justify-content: center;
+   
+
+    
+    
+} 
+ .mobile p
+{
+    color: white;
+    justify-content: center;
+   
+    
+}
+.mobile-item{
+    margin-top: 80px;
+}
+
+.section5
+{
+    padding-left: 170px;
+    padding-top: 15px;
+    font-size: 20px;  
+    text-align:center;
+  position: relative;
+  bottom: 230px;  
+  right: 60px; 
+}
+.section6
+{
+    padding-bottom: 50px;
+    justify-content: center;
+    position: relative;
+  bottom: 190px; 
+  justify-content: space-around; 
+}
+a
+{
+    text-decoration: none;
+}
+.section7
+{
+    height: 500px;
+    
+    justify-content: center;
+}
+.section7-2
+{
+    
+    position: relative;
+    bottom: 200px;
+    justify-content: center;
+    
+}
+.h-line
+{
+    
+    width: 50px;
+    color: red;
+    background-color: red;
+    border: 2px solid;
+    position: relative;
+    left: 270px;
+    bottom: 30px;
+}
+.heading7
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.para3
+{
+      position: relative;
+      right: 90px;
+    }
+    
+    .section8
+    {
+        font-family: inherit;
+        text-align:center;
+    width: auto;
+    position: relative;
+    bottom: 190px; 
+ } 
+.pic5
+{
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 127px;
+    /* width: 50%; */
+    justify-content: center;
+    /* place-content: center; */
+    justify-content: space-between;
+    
+}
+.section10
+{
+    
+    font-family: inherit;
+    text-align:center;
+    width: auto;
+  position: relative;
+  bottom: 100px;      
+}
+.section12
+{
+    padding-top: 10px;
+    width: 100%;
+    height: 50vh;
+}
+.move4
+{
+    
+   justify-content: center;
+   
+   
+   
+}
+.section12
+{
+    margin-top: 20px;
+    color: white;
+    background-image:linear-gradient(rgba(15, 19, 58, 0.8),rgba(0, 0, 0, 0.8)), url(./car6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 40px;
+}
+.size
+{
+            
+color: white;
+    font-size: 15px;
+}
+.no-border
+{
+    border: none;
+}
+.icon4
+{
+
+    background-color: rgb(143, 146, 137);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+
+
+}
+.left
+{
+    text-align:initial ;
+}
+
+.last-section
+{
+    opacity: .4;
+}
+.testimonial
+{
+    background-image:linear-gradient(rgba(237, 240, 247, 0.8),rgba(42, 35, 134, 0.8)), url(./car5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 185px;
+    height: 80vh;
+    justify-content: center;
+
+}
+
+.text
+{
+  padding-left: 500px;
+    padding-top: 50px;
+    color: white;
+    width: 1000px;
+}
+.img8
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    position: relative;
+    left: 560px;
+    top: 20px;
+}
+.heading3
+{
+    position: relative;
+    left: 530px;
+    top: 20px;
+}
+.para4
+{
+    position: relative;
+    left: 530px;
+    top: 20px;
+    color: red;
+}
+.btn5
+{
+    padding-top:130px;
+}
+.section11
+{
+    position: relative;
+    
+}
+.center li
+{
+position: relative;
+right: 150px;
+}
+.center li:hover
+{
+    text-decoration: underline;
+}
+.contact
+{
+    border-radius: 5px;
+    width:100px;
+    position: relative;
+    left:185px;
+    background-color: rgb(236, 58, 27);
+    
+}
+.contact:hover
+{
+background-color: rgb(182, 25, 25);
+
+}
+.last-para
+{
+    
+    position: relative;
+    top: 30px;
+}
+/* media qurries */
+
+/* -------------------mobile------------------ */

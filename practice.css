@@ -1,0 +1,35 @@
+body
+{
+    background-color: rgb(241, 209, 167);
+}
+a
+{
+    width:100px;
+    color: black;
+    padding: 100px;
+    display: inline;
+    text-decoration: none;
+}
+.border
+{ 
+    border: 2px solid black;
+    height: 223px;
+    margin:20px;
+    width: 890px;
+}
+img
+{
+    margin-left: 562px;
+    margin-top: -111px;
+    height:216px;
+}
+a:hover
+{
+     color: rgb(51, 197, 83);
+    text-decoration: none;
+    justify-content: none;
+}
+.content
+{
+    margin-top: 10px;
+}

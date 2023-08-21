@@ -1,0 +1,105 @@
+h1
+{
+font-style: arial;
+}
+.borders
+{
+    border: 3px solid antiquewhite; 
+    height: 106px; 
+    background-color: antiquewhite;
+    width: 1354px;
+    margin: -4px;
+    /* margin: -7px; */
+    /* top: 33px; */
+    
+}
+.border2 
+{
+    color: black;
+/* position: sticky; */
+}
+.border2 ul
+{
+    position: fixed;
+     display: flex;
+    list-style: none; 
+     right:33px;
+     text-decoration: none;
+     margin-top: -66px;
+     
+ }
+
+body
+{
+     background-image: url("food.jpeg"); 
+background-repeat: no-repeat;
+background-size: 1365px;
+/* background-position-y: 120px; */
+
+}
+.body
+{
+    margin: auto;
+width: 358px; 
+height: 145px;
+color: white;
+margin-top: 70px;
+/* position: sticky; */
+}
+.width
+{
+ width: 170px;  
+ float: right;
+}
+.right
+{
+width: 70px;
+}
+/* .type2
+{
+    border:2px solid white ;
+    width: 94px;
+
+} */
+
+.type2
+{
+    border:2px solid white ;
+    color: white;
+    width: 100px;
+height: 28px;
+display: inline-block;
+background-color:burlywood;
+}
+.type a{
+    color: white;
+    text-decoration: none;
+    width: 94px;
+   
+
+}
+.type2 a{
+    color: white;
+    text-decoration: none;
+    width: 94px;
+    position: absolute;
+    font-size: 18px;
+}
+a:hover
+{
+    background-color: rgb(124, 88, 22);
+    
+}
+.border2 li
+{
+    margin-top: 1px;
+    
+}
+a
+{
+    text-decoration: none;
+}
+.left
+{
+    padding-right: 17px;
+}

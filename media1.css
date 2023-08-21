@@ -1,0 +1,37 @@
+
+
+.parent
+{
+    /* background-color: royalblue; */
+    height: 300px;
+}
+.child1
+{
+    background-color: red;
+    height: 100px;
+    /* width: 25px; */
+}
+
+.child2
+{
+    background-color: rgb(61, 206, 56);
+    height: 100px;
+    
+}.child3
+{
+    background-color:purple ;
+    height: 100px;
+}.child4
+{
+    background-color: rgb(228, 70, 22);
+    height: 100px;
+}
+/* media queries? */
+@media screen and (max-width: 576px) {
+    .child1 {
+            background-color: yellow;
+    /* padding: auto;     */
+        }
+      
+    
+    }

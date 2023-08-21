@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(173, 173, 177);
+    color: black;
+}
+.dropdown  ul
+{
+    /* text-decoration: none; */
+list-style: none;
+width: 22px;
+
+}
+.dropdown li
+{
+    /* text-decoration: none; */
+    float: left;
+    position: relative;
+    width: 70px;
+}
+.dropdown a
+{
+    color:black;
+    background-color: rgb(227, 250, 180);
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: all;
+
+}
+.dropdown li:hover a
+{
+    background-color: violet;
+    
+}
+#submenu
+ {
+    opacity: 0;
+    left: 0;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+}
+li:hover ul#submenu
+{
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+
+}

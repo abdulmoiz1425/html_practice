@@ -1,0 +1,56 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+    background-color: cadetblue;
+    margin: 40px;
+}
+.container::before
+{
+    content: "learn from thapa";
+    /* position: absolute; */
+transform: translateX(-50);
+width: 1814px;
+}
+.container::after
+{
+content: "learn from harry";
+/* position: absolute; */
+transform: translateX(-50);
+}
+button
+{
+background-color: rgb(199, 8, 46);
+   margin: 30px;
+   width: 60px;
+}
+.btn
+{
+    padding: 10px;
+ width: 80px;   
+}
+.dropdown
+{
+    display: inline-block;
+    position: relative;
+
+}
+.content
+{
+    display: none;
+    position:absolute;
+background-color: rgb(146, 146, 175);
+padding: 5px 10px;
+z-index: 1;
+}
+button:hover
+{
+    background-color: darkkhaki;
+}
+.dropdown:hover .content
+{
+display: block;
+
+}

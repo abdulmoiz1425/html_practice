@@ -1,0 +1,89 @@
+body
+{
+    background-image: url("image new.jpeg");
+    background-repeat: no-repeat; 
+    background-size: 1500px;
+}
+
+.left
+{
+display: -webkit-inline-box;}
+
+.mid
+{
+    border: 4px solid purple;
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    /* padding: 50px; */
+    background-color:purple;
+    /* display: -webkit-inline-box; */
+    margin-top: -50px;
+    
+    
+}
+
+.right
+{
+    border: 3px solid rgb(210, 211, 224);
+right: 34px;
+top: 22px;
+position: absolute;
+background-color:rgb(167, 163, 182);
+position: fixed;
+}
+button:hover
+{
+    background-color: brown;
+    color: cornsilk;
+}
+.mid li
+{
+    display: inline-block;
+    padding: 20x;
+    width: 100px;
+    
+}
+.mid li a
+{
+    padding: 13px;
+text-decoration: none;
+width: 40px;
+color:white;
+max-width: 22px;
+}
+.mid li a:hover
+{
+    /* background-color: saddlebrown; */
+    text-decoration: underline;
+ } 
+.signup
+{
+    margin: 90px;
+    padding: 30px;
+    border: 2px solid black;
+    /* position: absolute; */
+    width: 251px;
+    height: 350px;
+background-color: brown;
+margin: auto;
+text-align: center;
+margin-top: 40px;
+} 
+.margin
+{
+    height: 35px;
+    width: 224px;
+    margin: 10px;
+    
+}
+img
+{
+    height: 80px;
+    width: 80px;
+    position: sticky;
+}
+.margin:hover
+{
+    background-color: darkorange;
+}
