@@ -15,17 +15,7 @@
 // d=age>=18? "you can drive" : "you cannot drive"
 // console.log(d)
 // 
-const sum=(a,d)=>{
-    return a+d
-}
-console.log(sum)
-a=2
-d=5
-
-
-
-
-
+// 
 
 
 

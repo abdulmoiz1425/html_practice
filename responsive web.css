@@ -1,21 +1,42 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
+.search
+{
+    padding-left: 5%;
+}
 .latest-news
 {
     text-align: center;
 }
+/* .mid
+{
+    margin-left: -10px;
+} */
 
-.find-D1{
-    width: 115px;
-}    
+/* .find-D:hover
+{
+    background-color: aliceblue;
+}      */
+
 
 .hbtn
 
 {
 
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     padding-bottom: 5px;
-    padding-right: 175px;
+    /* padding-left: 25%; */
+    padding-right: 3em;
+    /* margin-left: 19%; */
+    
 }
 /* button class */
 .find-D
@@ -24,9 +45,10 @@
     border: 1px solid red;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
     background: transparent;
-    margin-right: 70px;
+    margin-left: 10px;
+    padding-top: 6px;
+
 }
 .find-D1
 {
@@ -34,17 +56,17 @@
     border: 1px solid red;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
     background: transparent;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    justify-content: center;
+    align-items: center;
 }
-.navbar1
-{
-    /* padding-bottom: 15px; */ 
+/* .navbar1
+{ 
     padding-top: 15px;
     background-color: seashell;
     box-shadow: 0px,2px,15px 2px;
-}
+} */
 
 .find-D:hover
 {
@@ -72,6 +94,8 @@
 .content p
 {
     color:black;
+    padding-right: 35px;
+
 }
 
 
@@ -82,6 +106,7 @@
 {
     color: blue;
     font-size: 25px;
+    padding-right: 10px;
 }
 .content h4
 {
@@ -89,14 +114,26 @@
 }
 .vertical h4
 {
+    font-size: 150%;
     color: blue;
 }
 .vertical
 {
-    border-left: 1px solid black;
-padding-left: 30px;
-height: 100px;
+    position: relative;
+    bottom: 52%;
+    left: 18px;
 }
+ .vertical::before
+{
+   content: "";
+   background-color: black;
+   display: block;
+   position: relative;
+   right: 15%;
+   width: 2px;
+   height: 120px;
+   top: 132px;
+} 
 
 /* logo  webname  */
 .page
@@ -142,19 +179,28 @@ height: 100px;
 .text-in-pic{
     
     text-align: right;
-
-    padding-right:110px ;
- 
-    padding-top: 100px;
+padding-right: 10%;
+padding-top: 100px;
+}
+.heading8
+{
+    margin-right: 4%;
 }
 
-.text-in-pic h2
+.text-in-pic h1
 {
     color: blue;
 }
 .text-in-pic button
 {
 background-color: blue;
+color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    
+    background: transparent;
+    margin-right: 10%;
+    
 }
 .text-in-pic button:hover
 {
@@ -188,6 +234,11 @@ background-color: blue;
     padding-top: 30px;
     text-align:center ;
 }
+/* .para8
+{
+    padding-left: 70px;
+
+} */
 
  .gbtn
 {
@@ -227,12 +278,20 @@ button
 {
     text-align: start;
 }
+/* .move5
+{
+    text-align: start;
+    padding-left: 10%;
+}   */
+
 
 .section4
 {
     background-image: url(./med.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 2%;
+    height: 55%;
  
 }
 .Bbtn
@@ -252,6 +311,7 @@ button
 .para6
 {
     color: white;
+    font-weight: bolder;
     width: 75%;
     text-align:center ;
     position: relative;
@@ -261,8 +321,7 @@ button
 }
 .Mtools
 {
-    /* padding-left: 30px; */
-    width: 205px;
+    width: 170px;
     height: 115px;
 }
 
@@ -287,11 +346,17 @@ button
     height: 200px; 
 
 }
+/* .para9
+{
+    padding-left: 20%;
+} */
 .input
 {
     
     background-color: bisque;
     width: 70%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 .input h2
 {
@@ -299,9 +364,17 @@ button
 }
 .input button
 {
-    background-color: chartreuse;
+    background-color: blue;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    /* display: flex; */
+    background: transparent;
+    /* margin-left: 10px;
+    padding-top: 6px; */
 }
 .input button:hover
+
 {
     background-color: rgb(34, 56, 12);
     color: white;
@@ -310,14 +383,25 @@ button
 {
      display: flex;
 justify-content: center;
+padding-top: 15px;
+margin-bottom: 2%;
 
 
 }
 .edit2 i
 {
-    padding-right: 20px;
+    padding-right: 15px;
     font-size: 25px;
     padding-top: 8px;
+
+}
+.fixed i
+{
+    padding-left: 7%;
+}
+.move6
+{
+    padding-right: 7%;
 }
 .adjust
 {
@@ -336,9 +420,13 @@ font-size: 40px;
 {
     font-size: 40px;
 }
-.edit2
+/* .edit2
 {
     margin-top: 10px;
+} */
+.nav-2
+{
+   justify-content: center;
 }
 .red
 {
@@ -356,16 +444,20 @@ font-size: 40px;
     padding-top: 14px;
     font: revert
 }
-.para8
+/* .para8
 {
 
     padding-left: 40px;
-}
+} */
+.modify
+{
+    padding-left: 5%;
+} 
 
 
 /* <-------media qurries----------------->  */
 
-@media  (min-width:280px) and ( max-width:320px){
+@media screen  and ( max-width:320px){
     html,body
     {
         width: 100%;
@@ -374,11 +466,31 @@ font-size: 40px;
         padding: 0px;
         overflow-x: hidden;
     }
-    .para8
+    
+    .move5
 {
-
-    padding-left: 40px;
+    padding: 20px;
 }
+.navbar1
+{
+    margin-top: 10px;
+}
+
+    .nav-1
+{
+    justify-content: end;
+}
+.nav-2
+{
+    justify-content: center;
+}
+    .mid
+    {
+        padding-left: 20px;
+        padding-bottom: 12px;
+        padding-right: 20px;
+    }
+  
 .para10
 {
     width: 95%;
@@ -424,45 +536,30 @@ font-size: 40px;
 {
     display: flex;
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 15px;
 }
     .gbtn
     {
-        padding-left: 45px;
+        padding-left: 30px;
     }
    
     .text-in-pic
     {
-        color: white;
-        padding-right: 110px;
+        color: black;
+        text-align: center;
     }
-    .content
-    {
-      
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-top: 20px;
-        padding-bottom: 25px;
-    }
-    .vertical
-    {
-        padding-left: 20px;
-    }
-
+   
 
     .card-body
      {
         text-align: center;
-        /* padding-right: 31px; */
+        
     }
     .gbtnb
     {
-        width: 50% 
+        width: 50%;
+        justify-content: center; 
     }
-    /* .unordered
-    {
-        width: 92%;
-    } */
         
 
   
@@ -476,16 +573,14 @@ font-size: 40px;
         display: flex;
         justify-content: flex-end;
         padding-bottom: 5px;
-        padding-left: 25px;
-        padding-right: 36px;
+        padding-left: 23px;
+        padding-right: 12px;
         }
-    .Mtools
-{
-    padding-left: 30px;
-    width: 275px;
-    height: 115px;
-   
-}
+        .Mtools {
+            padding-left: 6px;
+            width: 315px;
+            height: 115px;
+        }
 .care
 {
     
@@ -504,25 +599,38 @@ font-size: 40px;
     left: 48px;
     padding-top: 70px;
 }
-.modify
-{    
-    left: 40px;
-    position: relative;
-}
-.content p
-{
-    color: white;
-}
+
 footer
 {
     text-align: center;
 }
-
-
-
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 5%;
 }
+.vertical {
+    position: relative;
+    bottom: 46%;
+    left: 3px;
+}
+.modify {
+    text-align: -webkit-center;
+    padding-left: 0px;
+}
+.para9 {
+    text-align: center;
+}
+.content p {
+    color: white;
+    padding-right: 35px;
+    font-weight: 900;
+}
+
+} 
 /* <-------media qurries one----------------->  */
-  @media  ( min-width:321px) and (max-width:375px) {
+  @media (min-width:321px) and (max-width:480px) {
     html,body
     {
         width: 100%;
@@ -530,6 +638,31 @@ footer
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
+    }
+    .navbar1
+{
+    margin-top: 10px;
+}
+    .vertical {
+        position: relative;
+        bottom: 46%;
+        left: 3px;
+        /* right: 20px; */
+    }
+    .para9
+    {
+        text-align: center;
+    }
+    .nav-2
+{
+    justify-content: center;
+}
+    
+    .mid
+    {
+        padding-left: 20px;
+        padding-bottom: 12px;
+        padding-right: 20px;
     }
     .form-control
 {
@@ -572,51 +705,65 @@ footer
 {
     display: flex;
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 4px;
+}
+.para10
+{
+    margin: 1rem;
+    text-align: center;
+    max-width: 90%;
 }
     .gbtn
+
     {
-        padding-left: 45px;
+        align-items: center;
     }
    
     .text-in-pic
     {
-        color: white;
-        padding-right: 110px;
+        color: black;
+        text-align: center;
     }
-    .content
-    {
-      
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-top: 20px;
-        padding-bottom: 25px;
+    .text-in-pic h2 {
+        color: blue;
+        line-height: 100%;
+        font-size: 210%;
     }
+    .content {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding-left: 11%;
+    }
+    /*
+    .content p
+{
+    color:black;
+    padding-right: 35px;
+
+}
     .vertical
     {
-        padding-left: 20px;
-    }
-
-
+        padding-left: 33%;
+    
+    } */
+.move5
+{
+    padding: 20px;
+}
     .card-body
      {
         text-align: center;
-        /* padding-right: 31px; */
+        
     }
     .gbtnb
     {
         width: 50% 
     }
-    /* .unordered
-    {
-        width: 92%;
-    } */
+    
         
 
   
-    .find-D{
-    margin-right: 20px;
-    width: 180px;}
     
 
     .hbtn{
@@ -625,14 +772,15 @@ footer
         justify-content: flex-end;
         padding-bottom: 5px;
         justify-content: end;
+        padding-left: 11%;
+        padding-right: 0px;
         }
-    .Mtools
-{
-    padding-left: 30px;
-    width: 335px;
-    height: 115px;
-   
-}
+        .Mtools {
+            padding-right: 30px;
+            float: right;
+            height: 115px;
+            width: 92%;
+        }
 .care
 {
     
@@ -652,24 +800,25 @@ footer
     padding-top: 70px;
 }
 .modify
-{    
-    left: 40px;
-    position: relative;
-}
-.content p
 {
-    color: white;
+    text-align: -webkit-center;
+    padding-left: 0px;
 }
 footer
 {
     text-align: center;
+}
+.content p {
+    color: white;
+    padding-right: 35px;
+    font-weight: 900;
 }
 
 
 }
 /* <-------media qurries two----------------->  */
 
-@media (min-width:376px)and (max-width:436px) {
+@media (min-width:540px) and (max-width:767px){
     html,body
     {
         width: 100%;
@@ -677,110 +826,99 @@ footer
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
-    }
-    .page
-{
-    display: inherit;
-    padding-bottom: 10px;
-}
-
-.latest-news
-{
-    text-align: center;
-}
-  
-    .care
-    {
-        display: contents;
-        width: 211px;
-        height: 265px;
-    }   
-    .gbtn
-    {
-      padding-left: 75px;
-      
      }
-    
-    .hbtn
+     .navbar1
+{
+    margin-top: 10px;
+}
+     .gbtn
 
     {
-    
-        display:flex;
-        justify-content: flex-end;
-        padding-bottom: 5px;
-        /* padding-right: 40px; */
-        justify-content: end;
-    }   
-    .para6 
+        align-items: center;
+    }
+    .card-body
+    {
+        text-align: center;
+    }
+    .move5
 {
-    color: white;
-    width: 75%;
-    text-align:center ;
-    position: relative;
-    left: 75px;
-    padding-top: 70px;
-
+    padding: 20px;
 }
-.modify
-{    
-    position: relative;
-    left: 90px;
-}
-.para5
+    .nav-1
 {
-    padding-left: 6px;
-    padding-top: 14px;
-    font: revert
+    justify-content: end;
 }
-.nav
+.nav-2
 {
-    
- justify-content: center;
-    
-}
-.symbol
-{
-    padding-left: 10%;
-}
-footer
-{
-    text-align: center;
+    justify-content: center;
 }
 .content {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    padding-left: 15%;
-    padding-bottom: 25px;
-} 
-.Mtools {
-    padding-left: 32px;
-    width: 340px;
-    height: 115px;
-} 
-.para8 {
-    padding-left: 40px;
-    padding-bottom: 20px;
-    width: 95%;
+    padding-left: 0%;
 }
-} 
-/* <-------media qurries three----------------->  */
-@media (min-width:540px)and(max-width:767px){
-    html,body
+    .mid
     {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
+        padding-left: 20px;
+        padding-bottom: 12px;
+        padding-right: 20px;
     }
     .hbtn {
         display: flex;
         justify-content: flex-end;
         padding-bottom: 5px;
-        padding-left: 25px;
-        /* padding-right: 36px; */
-        justify-content: end;
+        padding-right: 16em;
+       
+    }
+    .modify
+{
+    text-align: -webkit-center;
+    padding-left: 0px;
+
+}
+.Mtools {
+    padding-right: 103px;
+    float: right;
+    height: 115px;
+    width: 81%;
+}
+.para9
+    {
+        text-align: center;
+    }
+    .care {
+        width: 353px;
+        height: 105px;
+        height: 184px;
+    }
+    .bottom-pic
+    {
+        padding-bottom: 10px;
+    }
+    .page {
+        
+        padding-bottom: 35px;
+    }
+    .img {
+        background-image: url(/doc5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150vh;
+        background-position: center;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+    .input button {
+        background-color: blue;
+        margin-bottom: 10px;
+    }
+    .content p {
+        color: white;
+        padding-right: 35px;
+        font-weight: 900;
     }
 }
 /* <-------media qurries four----------------->  */
@@ -794,24 +932,56 @@ footer
         padding: 0px;
         overflow-x: hidden;
     }
+    .navbar1
+{
+    margin-top: 10px;
+}
+    .content p {
+        color: white;
+        padding-right: 35px;
+        font-weight: 900;
+    }
+    .move5
+{
+    padding: 20px;
+}
+
+.vertical {
+   position: relative;
+    bottom: 48%;
+    left: 18px;
+}
     .separate
     {
         padding-bottom: 15px;
     }
-    .nav
+    .nav-1
 {
     
- justify-content: center;
+ justify-content: end;
     
 }
+.nav-2
+{
+    justify-content: center;
+}
+
 .latest-news
 {
     text-align: center;
 }
 .Mtools {
-    width: 50%;
+    padding-right: 212px;
+    float: right;
     height: 115px;
-    padding-left: 26px;
+    width: 73%;
+
+}
+.list-group-item button {
+    background-color: rgb(9, 9, 63);
+    color: white;
+    margin: 5px;
+    width: 195px;
 }
 
 .img {
@@ -824,50 +994,55 @@ footer
     .hbtn
 
     {
-    
-        display:flex;
+        display: flex;
         justify-content: flex-end;
         padding-bottom: 5px;
-        padding-right: 0px;
+        padding-right: 11%;
+         
     }
-    .content
+     .content
     {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding-left: 3%;
       
-        padding-right: 50px;
-        padding-left: 44px;
-        padding-top: 20px;
+      
     }
+    
     .para5
 {
     padding-left: 15px;
     padding-top: 14px;
     font: revert
 }
-.modify
-{
-    padding-left: 35%;    
-}
+
+    .modify
+    { 
+
+   text-align: -webkit-center;
+    padding-left: 0px;
+
+    }    
+
     .input button
     {
         position: relative;
         bottom: 12px;
     }
-    .list-group-item button 
+    /* .list-group-item button 
 {
     background-color: rgb(9, 9, 63);
     color: white;
     margin: 5px;
-    width: 140px;
-}
+    width: 180px;
+} */
 .text-in-pic
 {
     color:black;
     padding-left: 10px;
 }
-.content p
-{
-    color:white;
-}
+
 .care
 {
     width: 221px;
@@ -882,12 +1057,18 @@ footer
 {
     text-align: center;
 }
+.mid
+{
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+}
 
 } 
 /* <-------media qurries five----------------->  */
 
 
- @media   (max-width:1024px)  and(max-width:1500px) {
+  @media   (min-width:1024px)  and (max-width:1300px) {
 
     html,body
     {
@@ -897,48 +1078,91 @@ footer
         padding: 0px;
         overflow-x: hidden;
     }
+    .navbar1
+{
+    margin-top: 10px;
+}
+    .content
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding-left: 3%;
+      
+      
+    }
+    .vertical {
+        position: relative;
+        bottom: 48%;
+        left: 18px;
+    }
+    .move5
+{
+    padding: 20px;
+}
+    .nav-1
+{
+    justify-content: end;
+}
+.nav-2
+{
+    justify-content: center;
+}
+    .Mtools {
+        width: 150%;
+        height: 115px;
+      
+    }
 
 .latest-news
 {
     text-align: center;
 }
 
-    .para8
-    {
-        padding-left: 40px;
-    }
+      
+    
     .gbtn
     {
-        padding-left: 75px;
+        padding-left: 9px;
     }
     .input button
     {
         position: relative;
         bottom: 10px;
     }
+    .para12
+    {
+        width: 95%;
+    }
     .care
 {
     
-    width: 285px;
-    height: 220px; 
+    width: 300%;
+    height: 220px;  
 }
     .input
 {
     
     background-color: bisque;
-    width: 70%;
+    width: 20%;
     position: relative;
-    right: px;
+    right:10px;
 } 
-    .hbtn
-
-    {
+.para10
+{
+    height: 50%;
+}
+.hbtn {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    padding-right: 25%;
     
-        display:flex;
-        justify-content: flex-end;
-        padding-bottom: 5px;
-        padding-right: 50%
-    }  
+}  
+    .bottom-pic
+    {
+        padding-bottom: 10px;
+    }
     .img {
         background-image: url(/doc5.jpg);
         background-repeat: no-repeat;
@@ -950,16 +1174,39 @@ footer
         background-color: rgb(9, 9, 63);
         color: white;
         margin: 5px;
-        width: 206px;
+        width: 190px;
     }
     footer
 {
     text-align: center;
 }
-
+.content p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-left: 15%;
+    color: white;
 }
+
+.mid
+{
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+}
+.separate
+{
+        padding-right: 25px;
+        padding-bottom: 10px;
+}
+.modify
+    {
+        padding-left: 6px;
+    }
+} 
+
 /* <-------------------sixth media----------------> */
-/* @media screen and(min-width:437px) and (max-width:560px) {
+@media  (min-width:280px) and (max-width:319px) { 
     html,body
     {
         width: 100%;
@@ -968,61 +1215,234 @@ footer
         padding: 0px;
         overflow-x: hidden;
     }
+    .navbar1
+{
+    margin-top: 10px;
+}
+    /* .para9
+{
+    padding-left: 10%;
+} */
+    .move5
+{
+    padding: 20px;
+}
+   
 
-.latest-news
-{
-    text-align: center;
-}
-    .img
-{
-    background-image: url(/doc5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
- 
-}
-
-footer
-{
-    text-align: center;
-}
-.care {
-    width: 195px;
-    height: 220px;
-    position: relative;
-    right: 11px;
-    display: contents;
-}
-.modify {
-    position: relative;
-    left: -66px;
+.fixed i {
+    padding-left: 5%;
 }
 
-.gbtn
- {
+.vertical {
     position: relative;
-    right: 36px;
-    }
+    left: -145px;
+    top: 55%;
+
+}
+.content p {
+    color: white;
+    padding-right: 35px;
+    font-weight: 700;
+}
+.vertical::before {
+    content: "";
+    background-color: black;
+    display: block;
+    position: relative;
+    right: 15%;
+    width: 4px;
+    height: 120px;
+    top: 132px;
+    display: none;
+}
+
+
+    .mid
+{
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+}
     .hbtn {
         display: flex;
-        justify-content: flex-end;
-        padding-bottom: 5px;
-        padding-right: 0px;
-    }
-    .social {
-     
-        position: relative;
-        right: 30px;
+    padding-bottom: 5px;
+    padding-left: 22px;
+    padding-right: 1%;
+
         
     }
-} */
-/* <-------------------third media----------------> */
-/* @media screen and(min-width:320px){
-    .Mtools
+      
+    .content {
+        justify-content: center;
+        padding-top: 20px;
+        padding-right: 14%;
+           padding-left: 30px;
+    }
+    .text-in-pic {
+        text-align: right;
+        padding-right: 45px;
+        padding-top: 100px;
+    }
+   
+    .modify
     {
-        padding-left: 30px;
-        width: 270px;
-        height: 315px;
-       
-    }  
-}  */
+        text-align: -webkit-center;
+    }
+    .para6 {
+        color: white;
+        width: 75%;
+        text-align: center;
+        position: relative;
+        left: 34px;
+        padding-top: 70px;
+    }
+   
+    .care {
+        width: 380px;
+        height: 200px;
+        display: contents;
+    }
+   
+    
+    .footer
+    {
+        text-align: center;
+    }
+   .img {
+        background-image: url(/doc5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150vh;
+        background-position: center;
+    }
+
+.gbtn
+{
+   
+    align-items: center;
+}
+.nav-1
+{
+    justify-content: end;
+    margin-top: 30px;
+}
+.nav-2
+{
+    justify-content: center;
+}
+.move7
+{
+    padding-left: 180px;
+    margin-bottom: 150px;
+}
+.Mtools {
+    padding-left: 26px;
+    width: 265px;
+    height: 115px;
+}
+
+
+} 
+/* @media  (min-width:370px) and (max-width:560px)
+{
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .move5
+{
+    padding: 20px;
+}
+    .section5
+{
+padding-left:11%;
+}
+.fixed i {
+    padding-left: 3%;
+}
+    .mid
+{
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+}
+    .hbtn {
+        display: flex;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        justify-content: end;
+        padding-right: 0px;
+        margin-left: 16%;
+    
+    }
+  
+    .text-in-pic {
+        text-align: right;
+        padding-right: 80px;
+        padding-top: 100px;
+    }
+ 
+    .modify  
+    {
+        text-align: -webkit-center;
+      
+    }
+    .para6 {
+        color: white;
+        width: 75%;
+        text-align: center;
+        position: relative;
+        left: 76px;
+        padding-top: 70px;
+    }
+    .card-body
+    {
+        text-align: center;
+    }
+    .Mtools {
+        padding-right: 15%;
+        width: 103%;
+        height: 115px;
+        padding-left: 0px
+    }
+    .care {
+        width: 380px;
+        height: 200px;
+        display: contents;
+    }
+    .para8 {
+        padding-left: 12px;
+    padding-bottom: 14px;
+    width: 96%;
+    }
+    
+    .footer
+    {
+        text-align: center;
+    }
+   .img {
+        background-image: url(/doc5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150vh;
+        background-position: center;
+    }
+
+.gbtn
+{
+   
+    align-items: center;
+}
+.nav-1
+{
+    justify-content: end;
+}
+.nav-2
+{
+    justify-content: center;
+}
+} */
